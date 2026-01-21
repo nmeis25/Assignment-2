@@ -197,10 +197,9 @@ VPN/Tor usage analysis
 The improved model successfully addresses all Assignment 2 requirements with exceptional performance (99.89% accuracy). The Random Forest classifier outperforms both the baseline (~70%) and alternative Neural Network (92.95%), demonstrating the effectiveness of proper data preprocessing and feature engineering.
 ---------------------------------------------------------------------------------
 Key Success Factors:
+
 Proper handling of outliers and missing data
 Effective feature scaling with RobustScaler
 Optimized Random Forest hyperparameters
-
 Comprehensive model evaluation
-
 Production-ready implementation
