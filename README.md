@@ -1,6 +1,6 @@
 # Network Traffic Classification Model – Assignment 2
 
-## 📊 Project Overview
+## Project Overview
 
 This project implements an improved machine learning model for classifying network traffic types using the Darknet dataset. The model accurately distinguishes between four traffic categories:
 
@@ -13,7 +13,7 @@ The final model achieves **99.89% accuracy**, representing a major improvement o
 
 ---
 
-## 🎯 Performance Results
+## Performance Results
 
 ### Model Performance
 
@@ -33,7 +33,7 @@ The final model achieves **99.89% accuracy**, representing a major improvement o
 
 ---
 
-## 📈 Classification Performance by Class
+## Classification Performance by Class
 
 | Class | Precision | Recall | F1-Score | Support |
 |------|-----------|--------|---------|---------|
@@ -44,7 +44,7 @@ The final model achieves **99.89% accuracy**, representing a major improvement o
 
 ---
 
-## 📁 Dataset Information
+## Dataset Information
 
 | Property | Value |
 |--------|------|
@@ -61,7 +61,7 @@ Missing rows were removed due to NaN values in:
 
 ---
 
-## 🏗️ Model Architecture
+## Model Architecture
 
 **Best Model:** Random Forest Classifier
 
@@ -75,7 +75,7 @@ Missing rows were removed due to NaN values in:
 
 ---
 
-## 📈 Key Feature Importance (Top 10)
+## Key Feature Importance (Top 10)
 
 | Feature | Importance |
 |-------|-----------|
@@ -94,7 +94,7 @@ Missing rows were removed due to NaN values in:
 
 ---
 
-## 🔧 Implementation Details
+## Implementation Details
 
 ### Data Preprocessing
 
@@ -115,7 +115,7 @@ Missing rows were removed due to NaN values in:
 
 ---
 
-## 📈 Model Evaluation
+##  Model Evaluation
 
 ### Confusion Matrix
 
@@ -136,7 +136,7 @@ Missing rows were removed due to NaN values in:
 
 ---
 
-## 🚀 How to Use
+##  How to Use
 
 ### Requirements
 
