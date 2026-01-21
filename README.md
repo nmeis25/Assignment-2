@@ -151,6 +151,7 @@ Generated Files:
 
 4.Various diagnostic outputs in console
 
+------------------------------------------------------------
 
 Load and Use the Model
 python
@@ -171,6 +172,7 @@ predictions = model.predict(new_data_scaled)
 original_labels = le.inverse_transform(predictions)
 
 
+------------------------------------------------------------
 
 Data Characteristics
 Dataset Statistics
@@ -183,6 +185,7 @@ Flow Rates: Up to 346,000,000 bytes/second
 
 Idle Times: Up to 1.45 quadrillion microseconds
 
+-------------------------------------------------------------
 
 Class Distribution
 Non-Tor: 69.6% (110,395 samples)
@@ -193,6 +196,8 @@ Tor: 0.9% (1,395 samples)
 
 VPN: 14.5% (22,916 samples)
 
+
+---------------------------------------------------------------
 
 Technical Details
 Cross-Validation Results
@@ -205,12 +210,17 @@ Fold 3: 99.92% accuracy
 
 Mean: 99.90% ± 0.02%
 
+
+---------------------------------------------------
+
 Model Training
 Training Time: ~2-3 minutes (depending on hardware)
 
 Memory Usage: ~1-2GB RAM
 
 CPU Utilization: Multi-threaded (n_jobs=-1)
+
+------------------------------------------------
 
 Assignment 2 Requirements Met
 Required Improvements Implemented:
@@ -227,7 +237,7 @@ Error Analysis: Identified Tor traffic as hardest to classify
 Feature Analysis: Top 10 important features identified
 
 
-Additional Enhancements:
+# Additional Enhancements:
 Model Persistence: Save/load capability
 
 Multi-model Comparison: RF vs Neural Network
@@ -236,7 +246,7 @@ Data Diagnostics: Extensive data validation
 
 Production Readiness: Error handling and logging
 
-
+--------------------------------------------
 
 Business/Research Implications
 High-Value Insights
@@ -249,6 +259,7 @@ Tor Detection Challenge: 90% recall for Tor (hardest class to detect)
 
 Near-Perfect Classification: Overall 99.89% accuracy is production-ready
 
+------------------------------------------------------
 
 Potential Applications
 Network security monitoring
