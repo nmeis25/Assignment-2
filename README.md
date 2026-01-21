@@ -50,6 +50,7 @@ Max Depth: 15
 Min Samples Split: 10
 Min Samples Leaf: 4
 Random State: 42
+
 ------------------------------------------------------------------------
 Key Feature Importance
 The top 10 most important features identified by the model:
@@ -73,6 +74,7 @@ Handled Missing Values: Removed 50 rows with NaN values
 IP Address Encoding: Factorized categorical IP addresses
 Outlier Handling: Used RobustScaler for feature scaling
 Data Validation: Multiple checks for infinite/NaN values
+
 -------------------------------------------------------------------------------
 Key Improvements Implemented
 
@@ -101,6 +103,7 @@ Non-Tor: Nearly perfect classification (22075/22079 correct)
 NonVPN: Perfect classification (4772/4772 correct)
 Tor: Good but has 28 misclassifications (251/279 correct = 90%)
 VPN: Excellent classification (4582/4584 correct)
+
 ------------------------------------------------------------------------------
 
 # How to Use
