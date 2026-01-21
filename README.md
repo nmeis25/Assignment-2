@@ -118,20 +118,20 @@ Generated Files:
 3.label_encoder.pkl - Label encoder
 4.Various diagnostic outputs in console
 
-# Load and Use the Model
+Load and Use the Model
 python
 import joblib
 import numpy as np
 
-# Load saved components
+Load saved components
 model = joblib.load('best_model.pkl')
 scaler = joblib.load('scaler.pkl')
 le = joblib.load('label_encoder.pkl')
 
-# Prepare new data (must match training features)
-# new_data = ...  # Your data here
+Prepare new data (must match training features)
+new_data = ...  # Your data here
 
-# Scale and predict
+Scale and predict
 new_data_scaled = scaler.transform(new_data)
 predictions = model.predict(new_data_scaled)
 original_labels = le.inverse_transform(predictions)
